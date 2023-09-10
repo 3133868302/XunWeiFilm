@@ -1,0 +1,17 @@
+{
+    "allStatus": 1,
+    "splashStatus": 1,
+    "countdown": 5,
+    "homeDialogStatus": 1,
+    "playDialogStatus": 0,
+    "downDialogStatus": 0,
+    "feedNativeStatus": 1,
+    "homeMaxIndex": 5,
+    "homeEndMaxTime": 30,
+    "rewardVideoStatus": 0,
+    "h5ADStatus": 1,
+    "contentVideoStatus": 1,
+    "feedStatus": 0,
+    "banner": 0,
+    "statement": "本站所有内容均来自互联网，本站不会保存、复制或传播任何视频文件，也不对本站上的任何内容负法律责任。请勿轻信视频中的任何广告，远离赌博。如果本站部分内容侵犯您的版权请告知，我们将第一时间撤除。"
+}
