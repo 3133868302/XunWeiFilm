@@ -1,0 +1,12 @@
+{
+    "Code": 0,
+    "Msg": "更新错误",
+    "UpdateStatus": 2,
+    "IsIgnorable": false,
+    "VersionCode": 100,
+    "VersionName": "1.0.0",
+    "ModifyContent": "\n新增 选集下载功能新增 1.25倍速，移除3.0倍速\n修复 全屏观看时锁定屏幕有时会旋转的问题\n修复 收藏和历史打开会获取最新的剧集\n修复 收藏和历史数量不符的问题\n修复 有些图片无法显示的问题\n其他一些BUG修复\n重要：如果安装提示签名不一样，请卸载后去下方官网下载重装\n如果更新异常，请到官网下载：\nffilm.top/label/app\nfilm.feiyu.vin/label/app",
+    "DownloadUrl": "https://ffsup-s42.oduuu.com/uploads%2F201%2F2023%2F07%2FgjagRrKw_%E9%A3%9E%E8%AF%AD%E5%BD%B1%E8%A7%863%20v3.2.5_xs.apk?Expires=1689838494",
+    "ApkSize": 20014,
+    "ApkMd5": ""
+}
