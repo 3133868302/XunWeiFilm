@@ -1,0 +1,142 @@
+[
+    {
+        "channelName": "城市",
+        "channelType": "web",
+        "host": "https://www.citydy.com",
+        "scanWhite": "m3u8,mp4,flv,mkv",
+        "scanBlack": "wjm3u8",
+        "searchPage": {
+            "url": "/search.html?wd={name}",
+            "img": "//img[@class=\"lazyload\"]/@data-original",
+            "name": "//div[@class=\"text-overflow\"]/h2/a/text()",
+            "state": "//span[@class=\"title text-center text-overflow\"]/text()",
+            "detailUrl": "//div[@class=\"text-overflow\"]/h2/a/@href"
+        },
+        "detailPage": {
+            "name": "//div[@class=\"col-sm-wide-7 col-xs-wide-65 vod-detail-info pt-xs-0\"]/ul/li[1]/h1//text()",
+            "img": "//img[@class=\"lazyload\"]/@data-original",
+            "type": "//div[@class=\"col-sm-wide-7 col-xs-wide-65 vod-detail-info pt-xs-0\"]/ul/li[3]/a/text()",
+            "desc": "//p[@class=\"txt-hid txt-hidden pointer\"]/text()",
+            "actor": "//div[@class=\"col-sm-wide-7 col-xs-wide-65 vod-detail-info pt-xs-0\"]/ul/li[4]/a/text()",
+            "director": "//div[@class=\"col-sm-wide-7 col-xs-wide-65 vod-detail-info pt-xs-0\"]/ul/li[5]/a/text()",
+            "state": "//div[@class=\"col-sm-wide-7 col-xs-wide-65 vod-detail-info pt-xs-0\"]/ul/li[9]/text()",
+            "year": "//div[@class=\"col-sm-wide-7 col-xs-wide-65 vod-detail-info pt-xs-0\"]/ul/li[6]/a/text()",
+            "channelList": "//ul[@class=\"play-list fade-in hide\"]",
+            "channel": "//div[@class=\"play-div-list-d\"]/span[1]/text()",
+            "serials": "//div[@class=\"play-div-oa\"]//li/a/text()",
+            "playUrl": "//div[@class=\"play-div-oa\"]//li/a/@href"
+        }
+    },
+    {
+        "channelName": "Nike",
+        "channelType": "web",
+        "host": "https://www.ajeee.com",
+        "scanWhite": "m3u8,mp4,flv,mkv",
+        "scanBlack": "",
+        "searchPage": {
+            "url": "/search.html?wd={name}",
+            "img": "//img[@class=\"lazy lazyload\"]/@data-original",
+            "name": "//div[@class=\"module-card-item-title\"]/a//text()",
+            "state": "//div[@class=\"module-item-note\"]/text()",
+            "detailUrl": "//a[@class=\"module-card-item-poster\"]/@href"
+        },
+        "detailPage": {
+            "img": "//div[@class=\"module-info-poster\"]//img/@data-original",
+            "name": "//div[@class=\"module-info-heading\"]/h1//text()",
+            "type": "//div[@class=\"module-info-tag-link\"][4]/a/text()",
+            "desc": "//p[@class=\"module-info-introduction-content show-desc\"]//text()",
+            "director": "//div[@class=\"module-info-items\"]/div[2]/div/a/text()",
+            "actor": "//div[@class=\"module-info-items\"]/div[3]/div/a/text()",
+            "year": "//div[@class=\"module-info-tag-link\"][2]/a/text()",
+            "state": "//div[@class=\"module-info-items\"]/div[8]/div//text()",
+            "channelList": "//div[@class=\"module-play-list\"]",
+            "channel": "//div[contains(@class,\"module-tab-item tab-item\")]/span/text()",
+            "serials": "//div[contains(@class,\"module-play-list-content\")]/a//text()",
+            "playUrl": "//div[contains(@class,\"module-play-list-content\")]/a/@href"
+        }
+    },
+    {
+        "channelName": "6080",
+        "channelType": "web",
+        "host": "https://www.6080dy3.com",
+        "scanWhite": "m3u8,mp4,flv,mkv",
+        "scanBlack": "",
+        "searchPage": {
+            "url": "/vodsearch/-------------.html?wd={name}",
+            "img": "//img[@class=\"lazy lazyload\"]/@data-src",
+            "name": "//div[@class=\"video-info-header\"]/h3/a//text()",
+            "state": "//div[@class=\"video-info-header\"]/a//text()",
+            "detailUrl": "//div[@class=\"video-info-header\"]/a/@href"
+        },
+        "detailPage": {
+            "img": "//div[@class=\"video-cover\"]//img/@data-src",
+            "name": "//div[@class=\"video-info-header\"]/h1//text()",
+            "type": "//div[@class=\"video-info-aux scroll-content\"][2]/a/text()",
+            "desc": "//div[@class=\"video-info-main\"]/div[7]/div/span/text()",
+            "director": "//div[@class=\"video-info-main\"]/div[1]/div/a/text()",
+            "actor": "//div[@class=\"video-info-main\"]/div[2]/div/a/text()",
+            "year": "//div[@class=\"video-info-aux scroll-content\"][3]//text()",
+            "state": "//div[@class=\"module-info-items\"]/div[4]/div//text()",
+            "channelList": "//div[contains(@class,\"module-list module-player-list tab-list sort-list\")]",
+            "channel": "//div[contains(@class,\"module-tab module-player-tab\")]/div/div[2]/div/span/text()",
+            "serials": "//div[contains(@class,\"module-blocklist scroll-box scroll-box-y\")]/div/a//text()",
+            "playUrl": "//div[contains(@class,\"module-blocklist scroll-box scroll-box-y\")]/div/a/@href"
+        }
+    },
+    {
+        "channelName": "Freeok",
+        "channelType": "web",
+        "host": "https://www.freeok.vip",
+        "scanWhite": "m3u8,mp4,flv,mkv",
+        "scanBlack": "",
+        "searchPage": {
+            "url": "/vodsearch/-------------.html?wd={name}",
+            "img": "//img[@class=\"lazy lazyload\"]/@data-original",
+            "name": "//div[@class=\"module-card-item-title\"]/a//text()",
+            "state": "//div[@class=\"module-item-note\"]/text()",
+            "detailUrl": "//a[@class=\"module-card-item-poster\"]/@href"
+        },
+        "detailPage": {
+            "name": "//div[@class=\"module-info-heading\"]/h1//text()",
+            "img": "//div[@class=\"module-info-poster\"]//img/@data-original",
+            "type": "//div[@class=\"module-info-tag\"]/div[3]/a/text()",
+            "desc": "//p[@class=\"module-info-introduction-content show-desc\"]//text()",
+            "director": "//div[@class=\"module-info-items\"]/div[2]/div/a/text()",
+            "actor": "//div[@class=\"module-info-items\"]/div[3]/div/a/text()",
+            "year": "//div[@class=\"module-info-tag\"]/div[1]/a/text()",
+            "state": "//div[@class=\"module-info-items\"]/div[5]/div//text()",
+            "channelList": "//div[@class=\"module-play-list\"]",
+            "channel": "//div[contains(@class,\"module-tab-item tab-item\")]/span/text()",
+            "serials": "//div[contains(@class,\"module-play-list-content\")]/a//text()",
+            "playUrl": "//div[contains(@class,\"module-play-list-content\")]/a/@href"
+        }
+    },
+    {
+        "channelName": "八度",
+        "channelType": "web",
+        "host": "https://www.bd8s.com",
+        "scanWhite": "m3u8,mp4,flv,mkv",
+        "scanBlack": "",
+        "searchPage": {
+            "url": "/vodsearch/-------------.html?wd={name}",
+            "img": "//img[@class=\"lazy lazyload\"]/@data-original",
+            "name": "//div[@class=\"module-card-item-title\"]/a//text()",
+            "state": "//div[@class=\"module-item-note\"]/text()",
+            "detailUrl": "//a[@class=\"module-card-item-poster\"]/@href"
+        },
+        "detailPage": {
+            "name": "//div[@class=\"module-info-heading\"]/h1//text()",
+            "img": "//div[@class=\"module-info-poster\"]//img/@data-original",
+            "type": "//div[@class=\"module-info-tag\"]/div[3]/a/text()",
+            "desc": "//p[@class=\"module-info-introduction-content show-desc\"]//text()",
+            "director": "//div[@class=\"module-info-items\"]/div[4]/div/a/text()",
+            "actor": "//div[@class=\"module-info-items\"]/div[5]/div/a/text()",
+            "year": "//div[@class=\"module-info-items\"]/div[6]/div//text()",
+            "state": "//div[@class=\"module-info-items\"]/div[8]/div//text()",
+            "channelList": "//div[@class=\"module-play-list\"]",
+            "channel": "//div[contains(@class,\"module-tab-item tab-item\")]/span/text()",
+            "serials": "//div[contains(@class,\"module-play-list-content\")]/a//text()",
+            "playUrl": "//div[contains(@class,\"module-play-list-content\")]/a/@href"
+        }
+    }
+]
