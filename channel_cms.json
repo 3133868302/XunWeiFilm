@@ -1,0 +1,42 @@
+[
+    {
+        "channelName": "非凡",
+        "channelType": "cms",
+        "host": "http://cj.ffzyapi.com/api.php/provide/vod/"
+    },
+    {
+        "channelName": "映迷",
+        "channelType": "cms",
+        "host": "https://www.inmi.app/api.php/provide/vod/"
+    },
+    {
+        "channelName": "量子",
+        "channelType": "cms",
+        "host": "http://cj.lziapi.com/api.php/provide/vod/"
+    },
+    {
+        "channelName": "快车",
+        "channelType": "cms",
+        "host": "https://caiji.kczyapi.com/api.php/provide/vod/"
+    },
+    {
+        "channelName": "红牛",
+        "channelType": "cms",
+        "host": "https://www.hongniuzy2.com/api.php/provide/vod/"
+    },
+    {
+        "channelName": "卧龙",
+        "channelType": "cms",
+        "host": "https://collect.wolongzyw.com/api.php/provide/vod/"
+    },
+    {
+        "channelName": "ikun",
+        "channelType": "cms",
+        "host": "https://ikunzyapi.com/api.php/provide/vod/"
+    },
+    {
+        "channelName": "新浪",
+        "channelType": "cms",
+        "host": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/"
+    }
+]
